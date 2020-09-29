@@ -34,7 +34,7 @@ launchButton.onclick = function () {
   // console.log('old way')
 }
 //      - element.addEventListener()
-function eventListener (event) {
+function eventListener(event) {
   // handle the click event
   console.log(`
     event type:   ${event.type}
@@ -90,7 +90,9 @@ document.addEventListener('keydown', function (event) {
 // It should also console.log the CURRENT target 🧭 of the event.
 // Play with stopPropagation and stopImmediatePropagation.
 Array.from(document.all).forEach(elem => {
-  elem.addEventListener('click', eventListener)
+  elem.addEventListener('click', event => {
+
+  })
 })
 
 // 👉 TASK 8- Select a link and prevent its default behavior
