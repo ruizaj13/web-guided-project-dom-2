@@ -12,7 +12,6 @@ window.onload = function () {
 // BUTTONS
 
 const launchButton = document.querySelector("#launchButton")
-console.log('the button -> ', launchButton)
 const confirmButton = null
 const cancelButton = null
 
