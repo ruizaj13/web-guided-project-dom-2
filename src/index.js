@@ -102,9 +102,10 @@ Array.from(document.all).forEach(elem => {
 })
 
 // 👉 TASK 8- Select a link and prevent its default behavior
-document.querySelectorAll('a').forEach(.addEventListener('click', event => {
-  event.preventDefault()
-})
+document.querySelectorAll('a')
+  .forEach(link => link.addEventListener('click', event => {
+    event.preventDefault()
+  }))
 
 // 👉 TASK 9- Using the mouseover event on 'document',
 // log to the console the X and Y coordinates
