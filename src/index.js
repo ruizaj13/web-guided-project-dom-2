@@ -32,12 +32,12 @@ const modal = document.querySelector('.module')
 //      - HTML
 //      - The DOM's element.onclick
 launchButton.onclick = function () {
-  console.log('old way')
+  // console.log('old way')
 }
 //      - element.addEventListener()
 launchButton.addEventListener('click', function (event) {
   // handle the click event
-  console.log('much better')
+  console.log(`event type: ${event.type}`)
 })
 
 // 👉 TASK 3- Create a function that launches!
