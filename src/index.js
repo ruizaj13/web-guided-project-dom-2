@@ -6,6 +6,9 @@ console.log('project is up')
 window.onload = function () {
   // ALL OF YOUR PROGRAM HERE
   // if you can't use the defer attribute, for example
+  // or if you want to make sure some code runs AFTER
+  // the "load" event fires on the tab
+  // (which would mean the )
 }
 
 
