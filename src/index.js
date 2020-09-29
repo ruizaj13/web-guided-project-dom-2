@@ -39,7 +39,8 @@ launchButton.addEventListener('click', function (event) {
   // handle the click event
   console.log(`
     event type: ${event.type}
-    event target: ${event.target}
+    event target: ${event.target.nodeName}
+    timestamp: ${event.timeStamp}
   `)
 })
 
