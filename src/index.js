@@ -25,7 +25,7 @@ const successMessage = document.querySelector('.success')
 const failureMessage = document.querySelector('.failure')
 
 // MODAL
-const modal = document.querySelector('.module')
+const modal = document.querySelector('.modal')
 
 debugger
 
