@@ -5,6 +5,7 @@ console.log('project is up')
 
 window.onload = function () {
   // ALL OF YOUR PROGRAM HERE
+  // if you can't use the defer attribute, for example
 }
 
 
