@@ -4,10 +4,10 @@ console.log('project is up')
 
 
 window.onload = function () {
-
+  // probably not a good idea
 }
 window.addEventListener('load', function (event) {
-    // ALL OF YOUR PROGRAM HERE
+  // ALL OF YOUR PROGRAM HERE
   // if you can't use the defer attribute, for example
   // or if you want to make sure some code runs AFTER
   // the "load" event fires on the tab
@@ -35,6 +35,10 @@ launchButton.onclick = function () {
   console.log('old way')
 }
 //      - element.addEventListener()
+launchButton.addEventListener('click', function (event) {
+  // handle the click event
+  console.log('much better')
+})
 launchButton.addEventListener('click', function (event) {
   // handle the click event
   console.log('much better')
