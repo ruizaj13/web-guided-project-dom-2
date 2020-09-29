@@ -37,7 +37,10 @@ launchButton.onclick = function () {
 //      - element.addEventListener()
 launchButton.addEventListener('click', function (event) {
   // handle the click event
-  console.log(`event type: ${event.type}`)
+  console.log(`
+    event type: ${event.type}
+    event target: ${event.target}
+  `)
 })
 
 // 👉 TASK 3- Create a function that launches!
