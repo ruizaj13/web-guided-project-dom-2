@@ -48,8 +48,9 @@ launchButton.addEventListener('click', eventListener)
 // It should open the confirmation modal.
 // Add it as an event listener for click events on the launch button.
 function launchModal(event) {
-  // any DOM surgery
+  // showing modal
   modal.classList.remove('off')
+  // getting rid of old success/failure messages
 }
 launchButton.addEventListener('click', launchModal)
 
