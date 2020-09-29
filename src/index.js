@@ -91,7 +91,11 @@ document.addEventListener('keydown', function (event) {
 // Play with stopPropagation and stopImmediatePropagation.
 Array.from(document.all).forEach(elem => {
   elem.addEventListener('click', event => {
-
+    console.log(`
+    event type:   ${event.type}
+    event target: ${event.target.nodeName}
+    timestamp:    ${Math.floor(event.timeStamp / 1000)}
+  `)
   })
 })
 
