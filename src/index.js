@@ -5,13 +5,13 @@ console.log('project is up')
 
 window.onload = function () {
   // ALL OF YOUR PROGRAM HERE
-  const launchButton = document.querySelector("#launchButton")
-  console.log('the button -> ', launchButton)
 }
 
 
 // BUTTONS
 
+const launchButton = document.querySelector("#launchButton")
+console.log('the button -> ', launchButton)
 const confirmButton = null
 const cancelButton = null
 
