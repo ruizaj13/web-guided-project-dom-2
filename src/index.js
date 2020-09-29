@@ -49,7 +49,7 @@ launchButton.addEventListener('click', eventListener)
 // Add it as an event listener for click events on the launch button.
 function launchModal(event) {
   debugger
-  modal.classList.toggle('off');
+  modal.classList.add('off');
 }
 launchButton.addEventListener('click', launchModal);
 
