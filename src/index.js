@@ -59,7 +59,7 @@ launchButton.addEventListener('click', launchModal)
 // Add it as a listener for clicks on the confirmation button.
 confirmButton.addEventListener('click', (event) => {
   modal.classList.add('off')
-  successMessage.classList.toggle('off')
+  successMessage.classList.remove('off')
 })
 
 // 👉 TASK 5- Create a function to cancel the launch.
