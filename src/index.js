@@ -27,8 +27,6 @@ const failureMessage = document.querySelector('.failure')
 // MODAL
 const modal = document.querySelector('.modal')
 
-debugger
-
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //      - HTML
 //      - The DOM's element.onclick
@@ -49,7 +47,8 @@ launchButton.addEventListener('click', eventListener)
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
 // Add it as an event listener for click events on the launch button.
-function launchModal (event) {
+function launchModal(event) {
+  debugger
   modal.classList.toggle('off');
 }
 launchButton.addEventListener('click', launchModal);
