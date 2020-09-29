@@ -51,6 +51,8 @@ function launchModal(event) {
   // showing modal
   modal.classList.remove('off')
   // getting rid of old success/failure messages
+  successMessage.classList.add('off')
+  failureMessage.classList.add('off')
 }
 launchButton.addEventListener('click', launchModal)
 
