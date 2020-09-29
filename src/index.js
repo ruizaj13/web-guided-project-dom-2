@@ -35,14 +35,15 @@ launchButton.onclick = function () {
   // console.log('old way')
 }
 //      - element.addEventListener()
-launchButton.addEventListener('click', function (event) {
+function eventListener (event) {
   // handle the click event
   console.log(`
     event type:   ${event.type}
     event target: ${event.target.nodeName}
     timestamp:    ${Math.floor(event.timeStamp / 1000)}
   `)
-})
+}
+launchButton.addEventListener('click', eventListener)
 
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
