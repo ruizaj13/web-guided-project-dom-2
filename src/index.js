@@ -92,9 +92,10 @@ document.addEventListener('keydown', function (event) {
 Array.from(document.all).forEach(elem => {
   elem.addEventListener('click', event => {
     console.log(`
-    event type:   ${event.type}
-    event target: ${event.target.nodeName}
-    timestamp:    ${Math.floor(event.timeStamp / 1000)}
+    event type:     ${event.type}
+    event target:   ${event.target.nodeName}
+    current target: ${event.currentTarget}
+    timestamp:      ${Math.floor(event.timeStamp / 1000)}
   `)
   })
 })
