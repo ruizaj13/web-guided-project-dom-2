@@ -40,7 +40,7 @@ launchButton.addEventListener('click', function (event) {
   console.log(`
     event type:   ${event.type}
     event target: ${event.target.nodeName}
-    timestamp:    ${event.timeStamp / 1000}
+    timestamp:    ${Math.floor(event.timeStamp / 1000)}
   `)
 })
 
