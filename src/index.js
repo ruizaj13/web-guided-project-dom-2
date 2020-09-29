@@ -102,7 +102,7 @@ Array.from(document.all).forEach(elem => {
 })
 
 // 👉 TASK 8- Select a link and prevent its default behavior
-document.querySelector('a').addEventListener('click', event => {
+document.querySelectorAll('a').forEach(.addEventListener('click', event => {
   event.preventDefault()
 })
 
