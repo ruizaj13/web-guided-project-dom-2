@@ -25,7 +25,7 @@ const successMessage = document.querySelector('.success')
 const failureMessage = document.querySelector('.failure')
 
 // MODAL
-const modal = document.querySelector('.module')
+const modal = document.querySelector('.modal')
 
 
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
