@@ -3,7 +3,8 @@ console.log('project is up')
 // 👉 TASK 1- Select the following elements from the DOM:
 
 // BUTTONS
-const launchButton = null
+const launchButton = document.querySelector("#launchButton")
+console.log('the button -> ', launchButton)
 const confirmButton = null
 const cancelButton = null
 
