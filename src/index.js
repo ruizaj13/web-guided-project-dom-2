@@ -94,7 +94,7 @@ Array.from(document.all).forEach(elem => {
     console.log(`
     event type:     ${event.type}
     event target:   ${event.target.nodeName}
-    current target: ${event.currentTarget}
+    current target: ${event.currentTarget.nodeName}
     timestamp:      ${Math.floor(event.timeStamp / 1000)}
   `)
   })
